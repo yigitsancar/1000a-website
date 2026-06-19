@@ -485,7 +485,6 @@ button {
   grid-template-columns: 1.2fr 0.8fr;
   gap: 38px;
   align-items: center;
-cat >> src/styles/globals.css <<'EOF'
 
 /* Stronger anchor offset */
 
@@ -534,7 +533,6 @@ EOF  margin-bottom: 44px;
   line-height: 1.7;
   max-width: 520px;
 }
-cat >> src/styles/globals.css <<'EOF'
 
 /* Stronger anchor offset */
 
@@ -548,7 +546,6 @@ cat >> src/styles/globals.css <<'EOF'
 #home {
   scroll-margin-top: 84px !important;
 }
-EOF
 .project-list {
   display: grid;
   gap: 34px;
